@@ -17,8 +17,8 @@ class  App extends Component {
   return (
     <BrowserRouter>
       <NavbarSection />
-      <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
+      <Route exact path="/about" component={About} />
+      <Route  path="/" component={Home} />
       <Route path="/casestudy" component={CaseStudy} />
       <Route path="/services" component={Services} />
       <Route path="/pricing" component={Pricing} />
