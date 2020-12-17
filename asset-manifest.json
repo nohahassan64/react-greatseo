@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-greatseo/static/css/main.76ecda80.chunk.css",
+    "main.js": "/react-greatseo/static/js/main.9e6fb3df.chunk.js",
+    "main.js.map": "/react-greatseo/static/js/main.9e6fb3df.chunk.js.map",
+    "runtime-main.js": "/react-greatseo/static/js/runtime-main.82119b37.js",
+    "runtime-main.js.map": "/react-greatseo/static/js/runtime-main.82119b37.js.map",
+    "static/css/2.75abc98d.chunk.css": "/react-greatseo/static/css/2.75abc98d.chunk.css",
+    "static/js/2.2ab8eee9.chunk.js": "/react-greatseo/static/js/2.2ab8eee9.chunk.js",
+    "static/js/2.2ab8eee9.chunk.js.map": "/react-greatseo/static/js/2.2ab8eee9.chunk.js.map",
+    "static/js/3.788ab9d4.chunk.js": "/react-greatseo/static/js/3.788ab9d4.chunk.js",
+    "static/js/3.788ab9d4.chunk.js.map": "/react-greatseo/static/js/3.788ab9d4.chunk.js.map",
+    "index.html": "/react-greatseo/index.html",
+    "static/css/2.75abc98d.chunk.css.map": "/react-greatseo/static/css/2.75abc98d.chunk.css.map",
+    "static/css/main.76ecda80.chunk.css.map": "/react-greatseo/static/css/main.76ecda80.chunk.css.map",
+    "static/js/2.2ab8eee9.chunk.js.LICENSE.txt": "/react-greatseo/static/js/2.2ab8eee9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82119b37.js",
+    "static/css/2.75abc98d.chunk.css",
+    "static/js/2.2ab8eee9.chunk.js",
+    "static/css/main.76ecda80.chunk.css",
+    "static/js/main.9e6fb3df.chunk.js"
+  ]
+}
