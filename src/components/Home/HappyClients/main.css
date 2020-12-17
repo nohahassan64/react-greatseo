@@ -1,0 +1,15 @@
+.swiper-button-prev, .swiper-button-next {
+    background: #0594A9;
+    color: #fff;
+    width: 50px;
+    height: 100px;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background: #EE902F;
+}
+@media(max-width: 991px){
+    .swiper-button-prev, .swiper-button-next {
+       display: none;
+    }
+}

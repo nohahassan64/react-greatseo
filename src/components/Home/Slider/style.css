@@ -1,0 +1,117 @@
+.carousel-item .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0 , 0 , 0 , .40);
+    z-index: 2;
+}
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 30%;
+    top: 50%;
+    -webkit-transform: translate(-30% , -50%);
+    -moz-transform: translate(-30% , -50%);
+    -o-transform: translate(-30% , -50%);
+    -ms-transform: translate(-30% , -50%);
+    transform: translate(-30% , -50%);
+    text-align: left;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}
+h2{
+    font-size: 60px;
+}
+p{
+    font-size: 22px;
+    margin: 20px 0;
+}
+.slide-button {
+    margin-bottom: 120px;
+    border: 3px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 12px 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.slide-button:hover {
+    color: #333;
+}
+.slide-button::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #fff;
+    -webkit-transition: all .5s ease-in-out ;
+    -moz-transition: all .5s ease-in-out ;
+    -o-transition: all .5s ease-in-out ;
+    -ms-transition: all .5s ease-in-out ;
+    transition: all .5s ease-in-out ;
+    z-index: -1;
+}
+.slide-button:hover::before {
+    width: 100%;
+    left: 0;
+
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    background-color: #0594A9;
+    border: 2px solid #fff;
+    z-index: 20;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -o-border-radius: 7px;
+    -ms-border-radius: 7px;
+    border-radius: 7px;
+}
+.carousel-indicators li.active{
+    border: 4px solid #000;
+    background-color: #EE902F;
+}
+@media(max-width: 991px) {
+    .image-slide {
+        height: 100vh;
+    }
+    .carousel-caption {
+        top: 30%;
+        -webkit-transform: translate(-30% , -30%);
+        -moz-transform: translate(-30% , -30%);
+        -o-transform: translate(-30% , -30%);
+        -ms-transform: translate(-30% , -30%);
+        transform: translate(-30% , -30%);    }
+    h2 {
+        font-size: 45px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .slide-button {
+        padding: 10px 35px;
+        font-size: 18px;
+    }
+}
+@media(max-width: 575px) {
+    .image-slide {
+        height: 80vh;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 16px;
+    }
+}

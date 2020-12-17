@@ -1,0 +1,36 @@
+.border-r6 {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+}
+.border-rTop {
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -o-border-radius: 6px 6px 0 0;
+    -ms-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+.box-shadow {
+    -webkit-box-shadow:  0 0 10px rgba( 0 , 0 , 0 , .5);
+    -moz-box-shadow:  0 0 10px rgba( 0 , 0 , 0 , .5);
+    -o-box-shadow:  0 0 10px rgba( 0 , 0 , 0 , .5);
+    -ms-box-shadow:  0 0 10px rgba( 0 , 0 , 0 , .5);
+    box-shadow: 0 0 10px rgba( 0 , 0 , 0 , .5);
+}
+.transition {
+    -webkit-transition: all .5s ease-in-out ;
+    -moz-transition: all .5s ease-in-out ;
+    -o-transition: all .5s ease-in-out ;
+    -ms-transition: all .5s ease-in-out ;
+    transition: all .5s ease-in-out ;
+}
+.opacity {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -o-opacity: 0;
+    -ms-opacity: 0;
+    opacity: 0;
+}
+.section { padding: 60px 0}
