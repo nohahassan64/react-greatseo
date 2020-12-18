@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar , Container , Nav   } from 'react-bootstrap';
 import './style.css'
+import { NavbarLink } from './NavbarStyle'
 
  const NavbarSection = () => {
 
@@ -13,12 +14,24 @@ import './style.css'
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/about">About Us</Nav.Link>
-                <Nav.Link href="/casestudy">Case Study</Nav.Link>
-                <Nav.Link href="/services">Services</Nav.Link>
-                <Nav.Link href="/pricing">Pricing</Nav.Link>
-                <Nav.Link href="/contact">Contact</Nav.Link>
+                <Nav.Link>
+                   <NavbarLink to="/">Home</NavbarLink>
+                </Nav.Link>
+                <Nav.Link>
+                   <NavbarLink to="/about">About Us</NavbarLink>
+                </Nav.Link>
+                <Nav.Link>
+                   <NavbarLink to="/casestudy">Case Study</NavbarLink>
+                   </Nav.Link>
+                <Nav.Link>
+                   <NavbarLink to="/services">Services</NavbarLink>
+                </Nav.Link>
+                <Nav.Link>
+                   <NavbarLink  to="/pricing">Pricing</NavbarLink>
+                </Nav.Link>
+                <Nav.Link>
+                   <NavbarLink to="/contact">Contact</NavbarLink>
+                </Nav.Link>
     </Nav>
     
   </Navbar.Collapse>
