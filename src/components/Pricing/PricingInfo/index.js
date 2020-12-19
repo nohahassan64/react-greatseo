@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container , Row , Col } from 'react-bootstrap';
 import { Desc , Box  , Head, Sup , SpanPrice , Span , TitleBox , Ul , Li , Link } from './../../Home/OurPricing/style';
 import { PricingInfoSection , Title } from './style.js';
