@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container , Row , Col  } from 'react-bootstrap';
+import imgWelcome from '../../../images/about/about.jpg'
 import { Box  , Span , Title , Desc , Buttons , Link } from './style.js'
 
 const WelcomeTo = () => {
@@ -15,7 +16,7 @@ const WelcomeTo = () => {
                             <Desc>Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sed elit a ex ullamcorper gravida. Integer lorem libero, hendrerit sed hendrerit in, molestie quis urna. Nullam sed sapien at nisi mollis blandit porttitor at dolor. Suspendisse fermentum vestibulum iaculis. Quisque tempor sagittis bibendum. Quisque pulvinar dui vitae fringilla euismod. Integer gravida commodo nisl a feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</Desc>
                         </Col>
                         <Col  lg={6} md={12}>
-                            <img className="img-fluid" src="images/about/about.jpg" alt=""/>
+                            <img className="img-fluid" src={imgWelcome} alt=""/>
                         </Col>
                     </Row>
                     <Buttons>

@@ -4,6 +4,9 @@ import SwiperCore, { Navigation , Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
+import imgClient1 from '../../../images/client/testi_01.png'
+import imgClient2 from '../../../images/client/testi_02.png'
+import imgClient3 from '../../../images/client/testi_03.png'
 import { Title , Desc , BoxPerson , Image , Name , Job , Testim , Icon , TitleTestim , DescTestim  }from './style.js';
 import './main.css'
 
@@ -29,7 +32,7 @@ const HappyClients = () => {
                 >
                    <SwiperSlide>
                     <BoxPerson>
-                        <Image src="images/client/testi_01.png" alt=""/>
+                        <Image src={imgClient1} alt=""/>
                         <Name>James Fernando </Name>
                         <Job>- Manger Of Racer</Job>
                     </BoxPerson>
@@ -43,7 +46,7 @@ const HappyClients = () => {
 
                     <SwiperSlide>
                     <BoxPerson>
-                        <Image src="images/client/testi_02.png" alt=""/>
+                        <Image src={imgClient2} alt=""/>
                         <Name>Jacques Philips </Name>
                         <Job>- Designer</Job>
                     </BoxPerson>
@@ -57,7 +60,7 @@ const HappyClients = () => {
 
                     <SwiperSlide>
                     <BoxPerson>
-                        <Image src="images/client/testi_03.png" alt=""/>
+                        <Image src={imgClient3} alt=""/>
                         <Name>Venanda Mercy </Name>
                         <Job>- Newyork City</Job>
                     </BoxPerson>
@@ -71,7 +74,7 @@ const HappyClients = () => {
 
                     <SwiperSlide>
                     <BoxPerson>
-                        <Image src="images/client/testi_01.png" alt=""/>
+                        <Image src={imgClient1} alt=""/>
                         <Name>James Fernando </Name>
                         <Job>- Manger Of Racer</Job>
                     </BoxPerson>
@@ -85,7 +88,7 @@ const HappyClients = () => {
 
                     <SwiperSlide>
                     <BoxPerson>
-                        <Image src="images/client/testi_02.png" alt=""/>
+                        <Image src={imgClient2} alt=""/>
                         <Name>Jacques Philips </Name>
                         <Job>- Designer</Job>
                     </BoxPerson>
@@ -99,7 +102,7 @@ const HappyClients = () => {
 
                     <SwiperSlide>
                     <BoxPerson>
-                        <Image src="images/client/testi_03.png" alt=""/>
+                        <Image src={imgClient3} alt=""/>
                         <Name>Venanda Mercy </Name>
                         <Job>- Newyork City</Job>
                     </BoxPerson>

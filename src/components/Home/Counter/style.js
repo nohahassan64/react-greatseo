@@ -3,7 +3,10 @@ import styled from 'styled-components';
 export const CounterSection = styled.div`
     background: #F2F3F5;
 `
-export const Icon = styled.i`
+export const Span = styled.span`
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0;
     background: #ee902f;
     color: #fff;
     padding: 30px;
@@ -13,12 +16,6 @@ export const Icon = styled.i`
     &:hover{
         background: #209FB2;
     }
-`
-export const Span = styled.span`
-    display: block;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 0;
 `
 export const Desc = styled.p`
 margin-top: 0;

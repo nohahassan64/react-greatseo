@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container   } from 'react-bootstrap';
-import {Slide  , Box , Link , Span , Title , Desc } from '../../About/CarouselAbout/style.js'
+import {Slide  , Box , LinkHome , Span , Title , Desc } from '../../About/CarouselAbout/style.js'
 
 const CarouselServices = () => {
     return(
         <Slide>
               <Container>
                   <Box>
-                  <Link href="/">Home</Link>
+                  <LinkHome to="/">Home</LinkHome>
                   <i className="fas fa-angle-double-right"></i>
                   <Span>Services</Span>
                   <Title>Services</Title>

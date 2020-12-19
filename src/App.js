@@ -11,11 +11,13 @@ import Clients from './components/Clients/index';
 import Contact from './components/Contact/index';
 import Footer from './components/Footer/index';
 import './components/MFrameWork/style.css';
+import ScrollToTop from './components/ScrollToTop';
 
 class  App extends Component {
  render() {
   return (
     <Router>
+      <ScrollToTop />
       <NavbarSection />
       <Switch>
       <Route exact path="/about" component={About} />

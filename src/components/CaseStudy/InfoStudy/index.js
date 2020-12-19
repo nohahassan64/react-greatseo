@@ -1,5 +1,11 @@
 import React from 'react';
 import { Container , Row , Col  } from 'react-bootstrap';
+import imgStudy1 from '../../../images/study/01.jpg'
+import imgStudy2 from '../../../images/study/02.jpg'
+import imgStudy3 from '../../../images/study/03.jpg'
+import imgStudy4 from '../../../images/study/04.jpg'
+import imgStudy5 from '../../../images/study/05.jpg'
+import imgStudy6 from '../../../images/study/06.jpg'
 import { Span , Title , Desc  , Box, BoxImage , Image , Over , BoxOver , TitleBox , DescBox , Icon  } from './style.js';
 
 const InfoStudy = () => {
@@ -19,7 +25,7 @@ const InfoStudy = () => {
                             <DescBox>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta in magna egestas ornare. Fusce tortor nibh, interdum eget consequat molestie, blandit vitae sapien.</DescBox>
                         </BoxOver>
                         <Icon className="fas fa-unlink transition opacity"></Icon>
-                        <Image src="images/study/01.jpg" alt=""/>
+                        <Image src={imgStudy1} alt=""/>
                         </BoxImage>
                         </Box>
                     </Col>
@@ -33,7 +39,7 @@ const InfoStudy = () => {
                             <DescBox>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta in magna egestas ornare. Fusce tortor nibh, interdum eget consequat molestie, blandit vitae sapien.</DescBox>
                         </BoxOver>
                         <Icon className="fas fa-unlink transition opacity"></Icon>
-                        <Image src="images/study/02.jpg" alt=""/>
+                        <Image src={imgStudy2} alt=""/>
                         </BoxImage>
                         </Box>
                     </Col>
@@ -49,7 +55,7 @@ const InfoStudy = () => {
                             <DescBox>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta in magna egestas ornare. Fusce tortor nibh, interdum eget consequat molestie, blandit vitae sapien.</DescBox>
                         </BoxOver>
                         <Icon className="fas fa-unlink transition opacity"></Icon>
-                        <Image src="images/study/03.jpg" alt=""/>
+                        <Image src={imgStudy3} alt=""/>
                         </BoxImage>
                         </Box>
                     </Col>
@@ -63,7 +69,7 @@ const InfoStudy = () => {
                             <DescBox>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta in magna egestas ornare. Fusce tortor nibh, interdum eget consequat molestie, blandit vitae sapien.</DescBox>
                         </BoxOver>
                         <Icon className="fas fa-unlink transition opacity"></Icon>
-                        <Image src="images/study/04.jpg" alt=""/>
+                        <Image src={imgStudy4} alt=""/>
                         </BoxImage>
                         </Box>
                     </Col>
@@ -79,7 +85,7 @@ const InfoStudy = () => {
                             <DescBox>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta in magna egestas ornare. Fusce tortor nibh, interdum eget consequat molestie, blandit vitae sapien.</DescBox>
                         </BoxOver>
                         <Icon className="fas fa-unlink transition opacity"></Icon>
-                        <Image src="images/study/05.jpg" alt=""/>
+                        <Image src={imgStudy5} alt=""/>
                         </BoxImage>
                         </Box>
                     </Col>
@@ -93,7 +99,7 @@ const InfoStudy = () => {
                             <DescBox>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta in magna egestas ornare. Fusce tortor nibh, interdum eget consequat molestie, blandit vitae sapien.</DescBox>
                         </BoxOver>
                         <Icon className="fas fa-unlink transition opacity"></Icon>
-                        <Image src="images/study/06.jpg" alt=""/>
+                        <Image src={imgStudy6} alt=""/>
                         </BoxImage>
                         </Box>
                     </Col>

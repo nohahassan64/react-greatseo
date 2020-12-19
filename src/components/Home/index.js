@@ -6,6 +6,7 @@ import SeoServices from './SeoServices/index'
 import Counter from './Counter/index'
 import OurPricing from './OurPricing/index'
 import HappyClients from './HappyClients/index'
+import { ourpricing , counter} from './OurPricing/data'
 
 class Home extends Component {
   render () {
@@ -15,8 +16,8 @@ class Home extends Component {
           <WelcomeTo />
           <WhyChoose />
           <SeoServices />
-          <Counter />
-          <OurPricing />
+          <Counter data={counter} />
+          <OurPricing data={ourpricing} />
           <HappyClients />
       </div>
     );

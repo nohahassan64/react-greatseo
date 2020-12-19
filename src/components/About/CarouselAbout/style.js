@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Slide = styled.div`
@@ -10,7 +11,7 @@ export const Box = styled.div`
     color: #fff;
     text-align: center;
 `
-export const Link = styled.a`
+export const LinkHome = styled(Link)`
     font-size: 18px;
     margin-right: 5px;
     background: #333;

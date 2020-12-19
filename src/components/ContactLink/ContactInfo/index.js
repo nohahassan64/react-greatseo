@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container , Row , Col  } from 'react-bootstrap';
-import { Title , Desc , Form , InputLeft , InputRight, TextArea , Link , Image } from './style.js';
+import ContactImg from '../../../images/contact.png'
+import { Title , Desc , InputLeft , InputRight, TextArea , Link , Image } from './style.js';
 
 
 const ContactInfo = () => {
@@ -21,7 +22,7 @@ const ContactInfo = () => {
                     <Link href="#">Get A Quote</Link>
                     </Col>
                     <Col md={6} xs={12}>
-                        <Image className="box-shadow" src="images/contact.png" alt=""/>
+                        <Image className="box-shadow" src={ContactImg} alt=""/>
                     </Col>
                 </Row>    
             </Container>

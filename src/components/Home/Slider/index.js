@@ -1,5 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import imgSlide1 from '../../../images/slider/1.jpg'
+import imgSlide2 from '../../../images/slider/2.jpg'
+import imgSlide3 from '../../../images/slider/3.jpg'
+import imgSlide4 from '../../../images/slider/4.jpg'
 import './style.css'
 
 const Slider = () => {
@@ -9,7 +13,7 @@ const Slider = () => {
     <div className="overlay"></div>
     <img
       className="image-slide d-block w-100"
-      src="images/slider/1.jpg"
+      src={imgSlide1}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -23,7 +27,7 @@ const Slider = () => {
   <div className="overlay"></div>
     <img
       className="image-slide d-block w-100"
-      src="images/slider/2.jpg"
+      src={imgSlide2}
       alt="Third slide"
     />
     <Carousel.Caption>
@@ -37,7 +41,7 @@ const Slider = () => {
   <div className="overlay"></div>
     <img
       className="image-slide d-block w-100"
-      src="images/slider/3.jpg"
+      src={imgSlide3}
       alt="Third slide"
     />
     <Carousel.Caption>
@@ -51,7 +55,7 @@ const Slider = () => {
   <div className="overlay"></div>
     <img
       className="image-slide d-block w-100"
-      src="images/slider/4.jpg"
+      src={imgSlide4}
       alt="Third slide"
     />
     <Carousel.Caption>

@@ -4,6 +4,12 @@ import SwiperCore, { Navigation , Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
+import ImgServ1 from '../../../images/services/01.png'
+import ImgServ2 from '../../../images/services/02.png'
+import ImgServ3 from '../../../images/services/03.png'
+import ImgServ4 from '../../../images/services/04.png'
+import ImgServ5 from '../../../images/services/05.png'
+import ImgServ6 from '../../../images/services/06.png'
 import { ServicesInfoSection , Title , DescTitle , IconHeader , DescCard , Ul , Li , Icon ,  Box , Image , TitleBox , Desc  } from './style.js';
 import './main.css';
 SwiperCore.use([Navigation , Autoplay]);
@@ -125,7 +131,7 @@ const ServicesInfo = () => {
      >
       <SwiperSlide>
         <Box className="box-shadow">
-        <Image src="images/services/01.png" alt=""/>
+        <Image src={ImgServ1} alt=""/>
         <TitleBox>Search Engine Optimization</TitleBox>
         <Desc>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia optio repellat nisi eaque corrupti et nobis rem, dolorum harum libero ipsum dolor sit amet!</Desc>
         </Box>
@@ -133,7 +139,7 @@ const ServicesInfo = () => {
 
       <SwiperSlide>
         <Box className="box-shadow">
-        <Image src="images/services/02.png" alt=""/>
+        <Image src={ImgServ2} alt=""/>
         <TitleBox>Email Marketing</TitleBox>
         <Desc>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia optio repellat nisi eaque corrupti et nobis rem, dolorum harum libero ipsum dolor sit amet!</Desc>
         </Box>
@@ -141,7 +147,7 @@ const ServicesInfo = () => {
 
       <SwiperSlide>
         <Box className="box-shadow">
-        <Image src="images/services/03.png" alt=""/>
+        <Image src={ImgServ3} alt=""/>
         <TitleBox>Pay Per Click</TitleBox>
         <Desc>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia optio repellat nisi eaque corrupti et nobis rem, dolorum harum libero ipsum dolor sit amet!</Desc>
         </Box>
@@ -149,7 +155,7 @@ const ServicesInfo = () => {
 
       <SwiperSlide>
         <Box className="box-shadow">
-        <Image src="images/services/04.png" alt=""/>
+        <Image src={ImgServ4} alt=""/>
         <TitleBox>Website Development</TitleBox>
         <Desc>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia optio repellat nisi eaque corrupti et nobis rem, dolorum harum libero ipsum dolor sit amet!</Desc>
         </Box>
@@ -157,7 +163,7 @@ const ServicesInfo = () => {
 
       <SwiperSlide>
         <Box className="box-shadow">
-        <Image src="images/services/05.png" alt=""/>
+        <Image src={ImgServ5} alt=""/>
         <TitleBox>Reporting</TitleBox>
         <Desc>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia optio repellat nisi eaque corrupti et nobis rem, dolorum harum libero ipsum dolor sit amet!</Desc>
         </Box>
@@ -165,7 +171,7 @@ const ServicesInfo = () => {
 
       <SwiperSlide>
         <Box className="box-shadow">
-        <Image src="images/services/06.png" alt=""/>
+        <Image src={ImgServ6} alt=""/>
         <TitleBox>Social Media Marketing</TitleBox>
         <Desc>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia optio repellat nisi eaque corrupti et nobis rem, dolorum harum libero ipsum dolor sit amet!</Desc>
         </Box>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container , Row , Col  } from 'react-bootstrap';
+import imgcontact from '../../images/logo/logo-seo.png';
 import { Desc , Title , Ul , Li , Input , Icon  , IconSocial } from './style.js'
 
 const Contact = () => {
@@ -8,7 +9,7 @@ const Contact = () => {
             <Container>
                <Row>
                    <Col md={4} sm={12}>
-                     <img src="images/logo/logo-seo.png"/>
+                     <img src={imgcontact}/>
                      <Desc>SEO Mauris pharetra quam ut commodo malesuada. Sed a ornare purus, nec cursus tortor. Integer vehicula felis nec nunc pulvinar efficitur. In et semper odio. Sed laoreet ullamcorper augue, ut mattis metus mattis quis.</Desc>
                      <Desc>Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</Desc>
                    </Col>

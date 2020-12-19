@@ -1,5 +1,6 @@
 import React , { useState } from 'react';
 import { FaTimes , FaBars } from 'react-icons/fa';
+import navImage from '../../images/logo/logo-seo.png';
 import { Nav , NavbarContainer , NavLogo , MobileIcon , NavMenu , NavItem , NavLinks } from './NavbarStyle';
 
 const Navbar = () => {
@@ -13,7 +14,7 @@ const Navbar = () => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to="/" onClick={closeMobileMenu}>
-                        <img src="images/logo/logo-seo.png"/>
+                        <img src={navImage}/>
                     </NavLogo>
                     <MobileIcon onClick={handelClick}>
                         {click ? <FaTimes /> : <FaBars />}
