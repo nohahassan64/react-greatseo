@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-greatseo/static/css/main.7ba2553c.chunk.css",
-    "main.js": "/react-greatseo/static/js/main.db98f7ad.chunk.js",
-    "main.js.map": "/react-greatseo/static/js/main.db98f7ad.chunk.js.map",
+    "main.js": "/react-greatseo/static/js/main.62d92fef.chunk.js",
+    "main.js.map": "/react-greatseo/static/js/main.62d92fef.chunk.js.map",
     "runtime-main.js": "/react-greatseo/static/js/runtime-main.f17d3266.js",
     "runtime-main.js.map": "/react-greatseo/static/js/runtime-main.f17d3266.js.map",
     "static/css/2.75abc98d.chunk.css": "/react-greatseo/static/css/2.75abc98d.chunk.css",
@@ -39,6 +39,6 @@
     "static/css/2.75abc98d.chunk.css",
     "static/js/2.95b0fe66.chunk.js",
     "static/css/main.7ba2553c.chunk.css",
-    "static/js/main.db98f7ad.chunk.js"
+    "static/js/main.62d92fef.chunk.js"
   ]
 }
