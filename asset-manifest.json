@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-greatseo/static/css/main.7ba2553c.chunk.css",
-    "main.js": "/react-greatseo/static/js/main.dc3252b6.chunk.js",
-    "main.js.map": "/react-greatseo/static/js/main.dc3252b6.chunk.js.map",
-    "runtime-main.js": "/react-greatseo/static/js/runtime-main.fd35cfb9.js",
-    "runtime-main.js.map": "/react-greatseo/static/js/runtime-main.fd35cfb9.js.map",
+    "main.js": "/react-greatseo/static/js/main.db98f7ad.chunk.js",
+    "main.js.map": "/react-greatseo/static/js/main.db98f7ad.chunk.js.map",
+    "runtime-main.js": "/react-greatseo/static/js/runtime-main.f17d3266.js",
+    "runtime-main.js.map": "/react-greatseo/static/js/runtime-main.f17d3266.js.map",
     "static/css/2.75abc98d.chunk.css": "/react-greatseo/static/css/2.75abc98d.chunk.css",
-    "static/js/2.c97acbc1.chunk.js": "/react-greatseo/static/js/2.c97acbc1.chunk.js",
-    "static/js/2.c97acbc1.chunk.js.map": "/react-greatseo/static/js/2.c97acbc1.chunk.js.map",
-    "static/js/3.217b02d8.chunk.js": "/react-greatseo/static/js/3.217b02d8.chunk.js",
-    "static/js/3.217b02d8.chunk.js.map": "/react-greatseo/static/js/3.217b02d8.chunk.js.map",
+    "static/js/2.95b0fe66.chunk.js": "/react-greatseo/static/js/2.95b0fe66.chunk.js",
+    "static/js/2.95b0fe66.chunk.js.map": "/react-greatseo/static/js/2.95b0fe66.chunk.js.map",
+    "static/js/3.dd7619c3.chunk.js": "/react-greatseo/static/js/3.dd7619c3.chunk.js",
+    "static/js/3.dd7619c3.chunk.js.map": "/react-greatseo/static/js/3.dd7619c3.chunk.js.map",
     "index.html": "/react-greatseo/index.html",
     "static/css/2.75abc98d.chunk.css.map": "/react-greatseo/static/css/2.75abc98d.chunk.css.map",
     "static/css/main.7ba2553c.chunk.css.map": "/react-greatseo/static/css/main.7ba2553c.chunk.css.map",
-    "static/js/2.c97acbc1.chunk.js.LICENSE.txt": "/react-greatseo/static/js/2.c97acbc1.chunk.js.LICENSE.txt",
+    "static/js/2.95b0fe66.chunk.js.LICENSE.txt": "/react-greatseo/static/js/2.95b0fe66.chunk.js.LICENSE.txt",
     "static/media/01.3ad1744e.jpg": "/react-greatseo/static/media/01.3ad1744e.jpg",
     "static/media/01.56b8e048.jpg": "/react-greatseo/static/media/01.56b8e048.jpg",
     "static/media/01.b2c8c6d5.png": "/react-greatseo/static/media/01.b2c8c6d5.png",
@@ -35,10 +35,10 @@
     "static/media/testi_03.f2ebf2eb.png": "/react-greatseo/static/media/testi_03.f2ebf2eb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd35cfb9.js",
+    "static/js/runtime-main.f17d3266.js",
     "static/css/2.75abc98d.chunk.css",
-    "static/js/2.c97acbc1.chunk.js",
+    "static/js/2.95b0fe66.chunk.js",
     "static/css/main.7ba2553c.chunk.css",
-    "static/js/main.dc3252b6.chunk.js"
+    "static/js/main.db98f7ad.chunk.js"
   ]
 }
